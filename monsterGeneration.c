@@ -27,6 +27,8 @@ Pnj *generatedMonster(Zone zone)
             .xp = (10 + rand() % 21) * pow(ALPHALEVEL, calculatedLevel),
             .loot = {0},
             .capacity = {0},
+            .attackMax = 20,
+            .attackMin = 10,
         };
 
         sprintf(monster.name, "goblin %d", i),

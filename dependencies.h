@@ -38,6 +38,8 @@ typedef struct
     int xp;
     char loot[10];
     char capacity[10];
+    int attackMin;
+    int attackMax;
 }Pnj;
 
 typedef struct
